@@ -19,9 +19,9 @@ class Day15ClipRRect extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              Text("ClipRRect 20"),
+              const Text("ClipRRect 20"),
               Container(
-                margin: EdgeInsets.all(10),
+                margin: const EdgeInsets.all(10),
                 width: 100,
                 height: 100,
                 color: Colors.red,
@@ -33,9 +33,9 @@ class Day15ClipRRect extends StatelessWidget {
                   ),
                 ),
               ),
-              Text("ClipRRect 100"),
+              const Text("ClipRRect 100"),
               Container(
-                margin: EdgeInsets.all(10),
+                margin: const EdgeInsets.all(10),
                 width: 100,
                 height: 100,
                 color: Colors.red,
@@ -44,7 +44,7 @@ class Day15ClipRRect extends StatelessWidget {
                   child: Image.network("https://picsum.photos/200/200"),
                 ),
               ),
-              Text("ClipRect"),
+              const Text("ClipRect"),
               ClipRect(
                 // none: 不裁切
                 // hardEdge: 裁切但不抗鋸齒 (default)
