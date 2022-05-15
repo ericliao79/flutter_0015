@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class Day15ClipRRect extends StatelessWidget {
-  const Day15ClipRRect({Key? key, required this.title}) : super(key: key);
+  const Day15ClipRRect({
+    super.key,
+    required this.title
+  });
 
   final String title;
 
