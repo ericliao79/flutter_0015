@@ -4,13 +4,9 @@ flutter 100 days
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+| Widget    | 用法           |
+|-----------|--------------|
+| ClipRect  | 將 child 裁切給定矩形大小 |
+| ClipRRect | 將 child 裁切爲圓角矩形 |
+| ClipOval | 將 child 橢圓形 |
+| ClipPath | 將 child 按照給定的路徑進行裁剪 |
